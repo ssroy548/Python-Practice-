@@ -1,9 +1,10 @@
 def get_gender(sex='Unknown'):
-    if sex is 'm':
+    if sex == 'm':
         sex = "Male"
-    elif sex is 'f':
+    elif sex == 'f':
         sex = "Female"
     print(sex)
+
 
 get_gender('m')
 get_gender('f')

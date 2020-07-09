@@ -1,4 +1,4 @@
-'''def fib(n):
+def fib(n):
     a=0
     b=1
     if n<= 0:
@@ -14,27 +14,23 @@
             a=b
             b=c
             print(c)
-fib(-2) '''
+fib(2)
 
-def fib(sum):
-    a=0
-    b=1
-    if sum<0:
-        print("Invalid input")
-    elif sum== 0:
-        print(a)
-    elif sum==1:
-        print(a)
-        print(b)
-    else:
-        print(a)
-        print(b)
-
-        for i in range (1,sum):
-            c = a+b
-            a=b
-            b=c
-            if(c<=sum):
-                 print(c)
-
-fib(50)
+# def fib(num):
+#     a=0
+#     b=1
+#     if num<=0:
+#         print("Invalid input")
+#     elif num== 1:
+#         print(a)
+#     elif num==2:
+#         print(a,b, end=" ")
+#     else:
+#         print(a,b, end=" ")
+#         for i in range (num-2):
+#             c = a+b
+#             a=b
+#             b=c
+#             print(c,end=" ")
+#
+# fib(8)
